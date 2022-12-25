@@ -11,7 +11,7 @@
 %%%%	Document settings
 %%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{App für die Universität Ulm}
+\title{App for Ulm University}
 \author{Emilija Kastratovic}
 % Set a license. See documentation for more information about predefined licenses
 \license{cc-by}
@@ -23,7 +23,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \email{emilija.kastratovic@uni-ulm.de}
 \studentId{1052407}
-\major{Software Engineering, BSc}
+\major{Software Engineering, BSc.}
 \semester{7}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -40,7 +40,7 @@
 \examId{SEB}
 % The name of the lecture or exam
 % \examName{Example} % if empty, default: 'Anwendungsprojekt Software Engineering'
-\term{Wintersemester 2021/22}
+\term{Winter term 2021/22}
 
 % Betreuer
 \supervisor{Alexander Raschke}
@@ -90,47 +90,51 @@ apply the concepts and skills we had learned in our coursework to a real-world p
 
 \section{Approach}
 
-Here, I will discuss the approach we took to develop the app.\\
-
 There were four teams working on the project, each responsible for a different platform,
 the teams being the Android team, the iOS team, the backend team, and the map team.
 Each team was responsible for developing and testing their own platform.
 I was invovled in the iOS team and later switched to the backend team.\\
 
-For this project, we decided to use the Scrum development approach 
-as iot allowed us to work quickly and iteratively.
-Over the course of the project, many different student were appointed as Scrum Masters, taking turns every six weeks.
-The Scrum Masters were responsible for organizing the team,
-managing the project and meetings, and ensuring that the team was working efficiently.
-Meetings were held weekly, or bi-weekly.\\
-
 The frontend was developed natively for Android and iOS using the Kotlin and Swift programming languages, respectively.
 For the iOS team, we used Swift and Xcode as our programming language and IDE.
+Members of the iOS team who didn't have a MacOS system were given a Mac Mini to use for development.
 The backend was developed using the Laravel framework and PHP as the programming language.
-PHPStorm, Xampp, and Postman were used as development tools.\\
+PHPStorm, Xampp, and Postman were used as development tools.
+Swagger was used to document the API.\\
 
 GitLab was used as the version control system for this project, 
 and the team set up a repository for each platform (iOS, Android, Backend) 
 in order to manage the codebase separately. 
 This allowed us to work on the different platforms concurrently 
-and ensured that the code was well-organized and easy to manage.\\
+and ensured that the code was well-organized and easy to manage.\
 
 We utilized GitLab's continuous integration/continuous deployment (CI/CD) 
 pipeline to automate the deployment process for each platform. 
 This allowed us to easily and quickly deploy new versions of the app to production, 
-as well as test and release other updates.\\
-
-Overall, GitLab was a valuable tool for our team, 
-as it provided a centralized location for code management 
-and allowed us to streamline the deployment process. 
+as well as test and release other updates.
 Its features and capabilities made it an essential part of our workflow 
 and contributed to the success of the project.\\
+
+For this project, we decided to use the Scrum development approach 
+as it allowed us to work quickly and iteratively.
+Features were already planned and documented in the Sphinx documetation located 
+in the common repository.\
+For every feature or bug fix, a new issue was created in GitLab,
+and the team would then work on the issue and close it once it was completed.\\
+
+Over the course of the project, many different student were appointed as Scrum Masters, taking turns every six weeks.
+The Scrum Masters were responsible for organizing the team,
+managing the project and meetings, and ensuring that the team was working efficiently.
+Meetings were held weekly, or bi-weekly.
+Communication in the whole team was done through the project's Slack, and later on Mattermost workspace,
+as well as in every meeting so that everyone was up to date with the project's progress.
+The sub teams communicated through WhatsApp and Discord, 
+where they could discuss issues and work on them together with pair programming.
+Often times this would help to solve issues faster and more efficiently.\\
 
 
 
 \section{Personal contribution}
-
-Here, I will discuss my personal contribution to the project.\\
 
 I started on the project as a member of the iOS team,
 wanting to gain experience with Swift and iOS development,
@@ -139,8 +143,7 @@ as developing for iOS was only possible on a Mac.\\
 Starting off in the team I was involved in 
 clarifying the app's required features and functionality.
 I cleaned up existing but outdated issues and created new ones.\
-I started working on existing issues which mainly involved bug fixing.
-However, understanding the codebase and especially Swift was challenging.\\
+I started working on existing issues which mainly involved bug fixing.\\
 
 While still on the iOS team, I first became the protocol manager.
 This involved creating and updating the protocol for the team,
@@ -247,13 +250,77 @@ Important to note is that most of the time spent on a bug
 was not spent on fixing the bug itself, but on finding the bug
 and researching how to fix it.\\
 
-\section{Evaluation} % gewonnene Erkenntnisse
-
-This project was a mixed bag.
+\section{Evaluation}
 
 Starting off, I was very excited to work on the project.
-
 I was looking forward to learning new technologies since this was
-the first 
+the first and best opportunities to work with a Mac and Swift and SwiftUI.
+After having a lot of smaller university projets, this was the perfect opportunity
+to work on a bigger, more meaningful project.\\
+
+However, finding a way into the project was not easy.
+The project was left in a very unapproachable state by the previous teams.
+The code was not well-documented, and the documentation was outdated.
+Former members of the team, while giving us a brief introduction to the project,
+were not really available for help and left shorty after. 
+This left a huge impact and made it very difficult to get started on the project.\
+In contrast, at the end of the project, where many new members joined, 
+I feel like we were able to help the newcomers much better and be of better help.\\
+
+This rough introduction to the UniApp really lowered the motivation for 
+the project and made it hard to get started.\
+In addidiotn, Swift and SwiftUI were very new to me, and honestly very 
+difficult to learn, as the syntax is very different from Java and other programming languages
+that I already knew.\
+This struggle was amplified when the only available tasks were bug fixing.
+Starting freshly with a new project or programming language is vastly different
+from fixing bugs in an existing project in a language you are not familiar with.
+This made it very difficult to stay motivated.\
+In addition, tasks like the iOS rehaul, which was very crucial and exciting to me 
+as I loved designing, were not the priority for the application.
+The focus was on bug fixing and getting the app into a stable state and 
+I was struggling to contribute to the project in a meaningful way.
+However, I was told that doing something is better than doing nothing,
+so I started on the iOS rehaul.
+This contribution helped me to find motivation again and to get into the project.\\
+
+Nevertheless, I realized that my journey with Swift should come to an end
+and I decided to switch to the backend team.
+This is probably the best decision I have made during the project.
+The start was very smooth and I was able to get started quickly,
+as members introducing me to the backend were already familiar with the codebase.
+While PHP and Laravel were as new to me as Swift, getting started was much easier.\
+I started to enjoy the project again and was able to contribute to in a meaningful way.\\
+
+This period is in stark contrast to the beginning of the project.
+I was very excited to work on the backend, try to find bugs and fix them,
+and optimize the code.\
+In addition, pair programming was much more successful on the backend team.
+Pair programming, and working with other people at the same time in a call 
+was very beneficial for the whole project.
+I only noticed how efficient it is to pair program when I was working on the backend.
+We were able to work more efficiently and find bugs much faster.
+Encountering bugs was much more fun.\\
+
+In general, I feel like I learned a lot more during the backend period;
+not only for the project but for my understanding of software development
+and programming.
+The UniApp, while a big question mark at the beginning,
+turned out to be a very interesting project.\
+Unfortunately, this period came too short, as most hours had already been spent and
+I would definitely have liked to work on the backend for longer.\\
+
+To summarize;\
+I was very excited to work on the project at the beginning,
+but the rough start made it hard to get started.
+I was able to find motivation and purpose again when I switched to the backend team,
+but this period was too short.\
+I learned a lot during the project.
+Not only was I able to gain understanding for the technologies that I was working with,
+but I also learned how important it is to have a team that works well together.\
+I am very grateful and happy for the opportunity to have worked on the UniApp
+and I feel like it is being left in a state that is much better than it was at the beginning,
+especially for the new members of the team.\\
+
 
 \end{document}

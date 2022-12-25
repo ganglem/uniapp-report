@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.23)  25 DEC 2022 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.23)  25 DEC 2022 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -862,17 +862,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--90
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--106
+Underfull \hbox (badness 10000) in paragraph at lines 98--104
 
  []
 
@@ -880,54 +875,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--106
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 T
-       he frontend was developed natively for Android and iOS using the Kotl... [1.3]
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+l.110 
+       [1.3]
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--117
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--122
+Underfull \hbox (badness 10000) in paragraph at lines 125--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 143--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
+Underfull \hbox (badness 10000) in paragraph at lines 148--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--176
+Underfull \hbox (badness 10000) in paragraph at lines 158--172
 
  []
 
@@ -935,44 +915,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--176
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 
-       [2.4]
-Underfull \hbox (badness 10000) in paragraph at lines 177--184
+l.173 D
+       uring the course of the project, I also reviewed code [2.4]
+Underfull \hbox (badness 10000) in paragraph at lines 173--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--195
+Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--204
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--210
+Underfull \hbox (badness 10000) in paragraph at lines 199--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--222
+Underfull \hbox (badness 10000) in paragraph at lines 208--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--235
+Underfull \hbox (badness 10000) in paragraph at lines 214--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--245
+Underfull \hbox (badness 10000) in paragraph at lines 226--238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--248
 
  []
 
 [3.5]
-Underfull \hbox (badness 10000) in paragraph at lines 246--249
+Underfull \hbox (badness 10000) in paragraph at lines 249--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--312
+
+ []
+
+[4.6]
+Underfull \hbox (badness 10000) in paragraph at lines 313--324
 
  []
 
@@ -980,22 +1000,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--249
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (C:\Users\emili\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [4.6] (report.aux)
+) [5.7] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30542 strings out of 476406
- 594613 string characters out of 2789566
- 1864787 words of memory out of 3000000
+ 30552 strings out of 476406
+ 594868 string characters out of 2789566
+ 1863787 words of memory out of 3000000
  50176 multiletter control sequences out of 15000+600000
- 697046 words of font info for 179 fonts, out of 8000000 for 9000
+ 698036 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,8n,120p,10659b,682s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/emili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{C:/Users/emili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fira/fir_iln36p.enc}<C:/Users/emili/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/emili/AppData/Local/Programs/MiKTeX/fonts/type1/public/fira/FiraSans-Regular.pfb><C:/Users/emili/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb>
-Output written on report.pdf (6 pages, 170724 bytes).
+Output written on report.pdf (7 pages, 174748 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
  55355 words of extra memory for PDF output out of 61914 (max. 10000000)
 
