@@ -1,6 +1,6 @@
-PWD c:\Users\emili\OneDrive - bwedu\Uni\apse\uulm-sp-reporttemplate
+PWD c:\Users\emili\OneDrive - bwedu\Uni\apse\uniapp-report
 INPUT C:\Users\emili\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\emili\OneDrive - bwedu\Uni\apse\uulm-sp-reporttemplate\report.tex
+INPUT c:\Users\emili\OneDrive - bwedu\Uni\apse\uniapp-report\report.tex
 OUTPUT report.log
 INPUT .\uulm\sp\article.cls
 INPUT .\uulm\sp\article.cls

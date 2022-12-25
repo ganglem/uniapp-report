@@ -51,9 +51,18 @@
 \maketitle
 \section{Project}
 
-This reflection report is for a software project that was completed as a university assignment. 
+This reflection report is for a the University of Ulm's Software Engineering project.\\
 The project involved creating an app about the university, called UniApp, 
-with the target audience being the students at Ulm University.
+with the target audience being the students at Ulm University.\\
+
+The original project started many years ago, 
+going through many iterations and changes over the course of its development.\
+I was brought on to the project in September 2021.
+In the curriculum we were tasked with a total of 360 hours to complete the project. 
+Originally, the project was supposed to be completed in one semester,
+however, the project was extended to January of 2023.
+I worked off the 360 hours in December 2022.\\
+
 The app was developed using a variety of software development techniques and tools, 
 including agile methodologies, version control systems, and testing frameworks. 
 The team consisted of several students who worked together to design, develop, and test the app.
@@ -80,9 +89,13 @@ Overall, the project was a valuable learning experience that allowed us to
 apply the concepts and skills we had learned in our coursework to a real-world project. \\
 
 \section{Approach}
+
+Here, I will discuss the approach we took to develop the app.\\
+
 There were four teams working on the project, each responsible for a different platform,
 the teams being the Android team, the iOS team, the backend team, and the map team.
-Each team was responsible for developing and testing their own platform.\\
+Each team was responsible for developing and testing their own platform.
+I was invovled in the iOS team and later switched to the backend team.\\
 
 For this project, we decided to use the Scrum development approach 
 as iot allowed us to work quickly and iteratively.
@@ -115,22 +128,132 @@ and contributed to the success of the project.\\
 
 
 
-\section{Persönlicher Beitrag}
-Approving merge requests: As a member of the development team, you likely reviewed and approved code changes that were submitted by other team members through merge requests. This process helps to ensure that only high-quality code is merged into the main branch of the project, and helps to prevent bugs and other issues from being introduced.
+\section{Personal contribution}
 
-iOS UI rehaul: You were responsible for redesigning and improving the user interface for the iOS version of the app. This involved updating the layout, design, and functionality of various screens and features to create a more user-friendly experience for users.
+Here, I will discuss my personal contribution to the project.\\
 
-Documentation fixes: You made changes and improvements to the project's documentation to ensure that it was accurate and up-to-date. This could have included correcting errors, adding missing information, and clarifying confusing sections.
+I started on the project as a member of the iOS team,
+wanting to gain experience with Swift and iOS development,
+as developing for iOS was only possible on a Mac.\\
 
-Changing authorization from query to authorization header: You modified the way that the app handles user authorization, changing it from using a query parameter to using an authorization header. This change likely improved the security of the app by making it more difficult for unauthorized users to gain access.
+Starting off in the team I was involved in 
+clarifying the app's required features and functionality.
+I cleaned up existing but outdated issues and created new ones.\
+I started working on existing issues which mainly involved bug fixing.
+However, understanding the codebase and especially Swift was challenging.\\
 
-Fixing the CI/CD pipeline for PHP 8 deployment: You fixed issues with the continuous integration/continuous deployment (CI/CD) pipeline that was used to deploy the app to production. This likely involved resolving any problems that were preventing the app from being successfully deployed when using PHP 8.
+While still on the iOS team, I first became the protocol manager.
+This involved creating and updating the protocol for the team,
+as well as documenting the team's progress and decisions.\
+Afterwards, I was appointed as the Scrum Master for the team.
+This involved organizing the team, managing the project and meetings,
+and ensuring that the team was working efficiently.
+To do this, I continuously communicated with the team members,
+asked about their progress, and helped them to resolve any issues they encountered.
+\\
 
-Adding French language support to the website: You implemented support for the French language on the website, allowing users to browse the site in their preferred language. This likely involved translating text and other content and integrating it into the website's codebase.
+One of the first tasks I wanted to complete was 
+to update the look and feel of the app to make it more modern and user-friendly.
+The reason behind this was that the app looked unappeling,
+as many buttons and other elements were not aligned properly,
+and the overall design was inconsistent.
+I was responsible for redesigning and improving the user interface 
+for the iOS version of the app. 
+This involved updating the layout, design, and functionality 
+of various screens and features to create a more user-friendly 
+experience for users.\
+For the rehaul, I used Figma and Photoshop to create mockups.
+These mockups, I then documented in the documentation repository.
+While doing this, I also updated missing documentation
+for the iOS screens and features.\\
 
+During the course of the project, I also reviewed code 
+submitted by other team members through merge requests. 
+This process helps to ensure that only high-quality code 
+is merged into the main branch of the project, 
+and helps to prevent bugs and other issues from being introduced 
+that were overseen by the other developers.\\
+
+After changing to the backend team, I needed to get to 
+know the backend codebase.
+I did this by reading through the code and documentation.
+For my first backend task, I implemented support for the French language on the website, 
+allowing users to browse the site in their preferred language. 
+This involved translating text and other content and 
+integrating it into the codebase.\\
+
+Afterwards, I started work on existing bugs.
+One bug caused FAQ reactions to be given to the wrong question.
+This was confusing, as the tests were passing,
+but the bug was still present in the app.
+I first fixed the bug by changing the used function.
+Then I took a look at the test and noticed that,
+while the test's idea was correct, the implementation was wrong,
+as there was only one question in the database,
+so the test was always passing.
+I fixed this by adding more FAQs and improved the tests.\\
+
+I also worked on improving the security of the app.
+I modified the way that the app handles user authorization, 
+changing it from using a query parameter to using an authorization header. 
+This change improved the security of the app by making 
+it more difficult for unauthorized users to gain access.
+Even though the Laravel documetation offered both types of authorization,
+I decided to use the authorization header as it was more secure.
+This was a breaking change, as it required the frontend teams to update their code.\\
+
+While coding, I noticed that the code was inconsistent
+with the Laravel code style guide.
+I decided to fix this by updating the code to follow the Laravel code style guide.
+Addidtionally, I documented this change and added a code style template
+to the documentation repository, so that other developers could use it.\\
+
+I was also involed in reviweing the PHP 8 upgrade.
+This was done with pair programming, 
+where I worked with another team member to fix the issues.
+There were many complications with the pipeline 
+that prevented the app from being successfully deployed to production.
+I was working on fixing these issues with the continuous 
+integration/continuous deployment (CI/CD) pipeline.
+The pipeline failed at many different points,
+and every small progression brought up new issues.
+Fixing the pipeline was a very time-consuming process.
+Unfortunately, we were unable to fix the issues in time.\\
+
+During the development, many wishes were made by the frontend teams.
+One of these was to change the way that the app handles the advertisement
+requests.
+When posting a new advertisement, the needed parameters could be sent
+as a query parameter or as a JSON object. 
+However, updating the advertisement required the parameters to be sent
+as a query parameter.
+This was inconsistent and confusing, so I wanted to change the way that the app
+handles the advertisement requests.
+However, the code was not well-documented, and I was unable to find
+out why this feature was implemented in this way.
+Unfortunately, I was unable to fix this issue.\\
+
+Both on the backend and frontend team,
+I made many changes and improvements to the project's 
+documentation to ensure that it was accurate and up-to-date. 
+This included correcting errors, adding missing information, and clarifying confusing sections.
+One big task was to document how to import all HTTP requests into Postman
+and I wrote a detailed guide on how to do this.\
+Experiencing difficulties with updating the local PHP version,
+I also modified the instructions so that people who also encounter
+these issues can easily fix them.\\
+
+Important to note is that most of the time spent on a bug
+was not spent on fixing the bug itself, but on finding the bug
+and researching how to fix it.\\
 
 \section{Evaluation} % gewonnene Erkenntnisse
-Was lief gut? Was war problematisch? Was würden Sie beim nächsten Mal anders oder besser machen? In diesem Kapitel ist es Ihre Aufgabe zu reflektieren. Auch wenn Sie in diesem Abschnitt sich selbst reflektieren sollen, so ist durchaus möglich, konstruktiv Kritik an der Teamarbeit oder auch an der Betreuung zu üben. Achten Sie darauf, stets sachlich zu bleiben und nicht emotional zu werden.
 
+This project was a mixed bag.
+
+Starting off, I was very excited to work on the project.
+
+I was looking forward to learning new technologies since this was
+the first 
 
 \end{document}
