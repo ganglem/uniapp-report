@@ -1,0 +1,136 @@
+\documentclass[sf-font,usefira,english]{uulm/sp/article}
+
+% Many packages are already defined in the class.
+% Check the uulm/sp/article.md for a full list.
+
+% Further packages
+\usepackage{blindtext}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%
+%%%%	Document settings
+%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{App für die Universität Ulm}
+\author{Emilija Kastratovic}
+% Set a license. See documentation for more information about predefined licenses
+\license{cc-by}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%
+%%%%	Author information
+%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\email{emilija.kastratovic@uni-ulm.de}
+\studentId{1052407}
+\major{Software Engineering, BSc}
+\semester{7}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%
+%%%%	Exam information
+%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Exam Information
+% Predefined Exam Ids are:
+% - 'SEB' 	Bachelor SE Pro
+% - 'SEM/A'	Master SE Project A
+% - 'SEM/B'	Master SE Project B
+\examId{SEB}
+% The name of the lecture or exam
+% \examName{Example} % if empty, default: 'Anwendungsprojekt Software Engineering'
+\term{Wintersemester 2021/22}
+
+% Betreuer
+\supervisor{Alexander Raschke}
+\supervisorEmail{alexander.raschke@uni-ulm.de}
+
+
+\begin{document}
+\maketitle
+\section{Project}
+
+This reflection report is for a software project that was completed as a university assignment. 
+The project involved creating an app about the university, called UniApp, 
+with the target audience being the students at Ulm University.
+The app was developed using a variety of software development techniques and tools, 
+including agile methodologies, version control systems, and testing frameworks. 
+The team consisted of several students who worked together to design, develop, and test the app.
+The students were split into four teams which were responsible for different platforms of the project, including the
+frontend teams for Android and iOS, the backend team for the server, and a map team.\\
+
+The vision for this project was to create an app that would provide students 
+with a convenient and centralized source of information about the university. 
+The app was intended to be a one-stop-shop for students to access 
+important resources such as news and events, a bulletin board where students
+can publish advertismetns, public transportation information, the canteen menu,
+and a map of the university campus. Other features include an FAQ section, 
+and a campus navigation system. \\
+
+Unfortunately, the app was not completed during the initial development phase 
+and was left in an unfinished state with many bugs.
+The goal of this project was to fix the bugs and get the app to a stable state 
+that could be released in app stores. \\
+
+The purpose of this report is to reflect on the process 
+of developing the app, identify any areas for improvement, 
+and discuss the challenges and successes encountered during the bug fixing process.
+Overall, the project was a valuable learning experience that allowed us to 
+apply the concepts and skills we had learned in our coursework to a real-world project. \\
+
+\section{Approach}
+There were four teams working on the project, each responsible for a different platform,
+the teams being the Android team, the iOS team, the backend team, and the map team.
+Each team was responsible for developing and testing their own platform.\\
+
+For this project, we decided to use the Scrum development approach 
+as iot allowed us to work quickly and iteratively.
+Over the course of the project, many different student were appointed as Scrum Masters, taking turns every six weeks.
+The Scrum Masters were responsible for organizing the team,
+managing the project and meetings, and ensuring that the team was working efficiently.
+Meetings were held weekly, or bi-weekly.\\
+
+The frontend was developed natively for Android and iOS using the Kotlin and Swift programming languages, respectively.
+For the iOS team, we used Swift and Xcode as our programming language and IDE.
+The backend was developed using the Laravel framework and PHP as the programming language.
+PHPStorm, Xampp, and Postman were used as development tools.\\
+
+GitLab was used as the version control system for this project, 
+and the team set up a repository for each platform (iOS, Android, Backend) 
+in order to manage the codebase separately. 
+This allowed us to work on the different platforms concurrently 
+and ensured that the code was well-organized and easy to manage.\\
+
+We utilized GitLab's continuous integration/continuous deployment (CI/CD) 
+pipeline to automate the deployment process for each platform. 
+This allowed us to easily and quickly deploy new versions of the app to production, 
+as well as test and release other updates.\\
+
+Overall, GitLab was a valuable tool for our team, 
+as it provided a centralized location for code management 
+and allowed us to streamline the deployment process. 
+Its features and capabilities made it an essential part of our workflow 
+and contributed to the success of the project.\\
+
+
+
+\section{Persönlicher Beitrag}
+Approving merge requests: As a member of the development team, you likely reviewed and approved code changes that were submitted by other team members through merge requests. This process helps to ensure that only high-quality code is merged into the main branch of the project, and helps to prevent bugs and other issues from being introduced.
+
+iOS UI rehaul: You were responsible for redesigning and improving the user interface for the iOS version of the app. This involved updating the layout, design, and functionality of various screens and features to create a more user-friendly experience for users.
+
+Documentation fixes: You made changes and improvements to the project's documentation to ensure that it was accurate and up-to-date. This could have included correcting errors, adding missing information, and clarifying confusing sections.
+
+Changing authorization from query to authorization header: You modified the way that the app handles user authorization, changing it from using a query parameter to using an authorization header. This change likely improved the security of the app by making it more difficult for unauthorized users to gain access.
+
+Fixing the CI/CD pipeline for PHP 8 deployment: You fixed issues with the continuous integration/continuous deployment (CI/CD) pipeline that was used to deploy the app to production. This likely involved resolving any problems that were preventing the app from being successfully deployed when using PHP 8.
+
+Adding French language support to the website: You implemented support for the French language on the website, allowing users to browse the site in their preferred language. This likely involved translating text and other content and integrating it into the website's codebase.
+
+
+\section{Evaluation} % gewonnene Erkenntnisse
+Was lief gut? Was war problematisch? Was würden Sie beim nächsten Mal anders oder besser machen? In diesem Kapitel ist es Ihre Aufgabe zu reflektieren. Auch wenn Sie in diesem Abschnitt sich selbst reflektieren sollen, so ist durchaus möglich, konstruktiv Kritik an der Teamarbeit oder auch an der Betreuung zu üben. Achten Sie darauf, stets sachlich zu bleiben und nicht emotional zu werden.
+
+
+\end{document}
